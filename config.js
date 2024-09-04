@@ -20,13 +20,13 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Time to sleep!',
+	greetingNight: 'Time to sleep',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'https://weerlive.nl/api/weerlive_api_v2.php?key=ba318ed547&locatie=DenHaag', // Write here your API Key
+	weatherKey: 'https://api.openweathermap.org/data/2.5/weather?lat=52.040760&lon=4.225740&appid=190b11d5309b8f31562e71b8a4bed037', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -65,12 +65,24 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Drive',
-			icon: 'triangle',
-			link: 'https://drive.google.com/drive/my-drive',
+			name: 'Classroom',
+			icon: 'presentation',
+			link: 'https://classroom.google.com/u/0/h',
 		},
 		{
 			id: '4',
+			name: 'Calendar',
+			icon: 'calendar-days',
+			link: 'https://calendar.google.com/calendar/u/0/r/',
+		},
+		{
+			id: '5',
+			name: 'Drive',
+			icon: 'cloud',
+			link: 'https://drive.google.com/drive/my-drive',
+		},
+		{
+			id: '6',
 			name: 'Tweek',
 			icon: 'list-todo',
 			link: 'https://tweek.so/',
@@ -123,46 +135,45 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'library',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Math textbook',
+					link: 'https://bookshelf.oxfordsecondary.co.uk/contents/428/index.html',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'CompSci website',
+					link: 'https://sites.google.com/ishthehague.nl/ish-dp-computer-science/home?authuser=0&pli=1',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Timetable',
+					link: 'https://ishthehague.students.isamshosting.cloud/api/profile/timetable/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					icon: 'sparkles',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'heart',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Everything will work out in the end',
+					link: '',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: '',
+					link: '',
 				},
 			],
 		},
