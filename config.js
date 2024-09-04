@@ -151,7 +151,8 @@ const CONFIG = {
 					link: 'https://ishthehague.students.isamshosting.cloud/api/profile/timetable/',
 				},
 				{
-					icon: 'sparkles',
+					name: '',
+					link: '',
 				},
 			],
 		},
