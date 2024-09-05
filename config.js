@@ -151,8 +151,8 @@ const CONFIG = {
 					link: 'https://ishthehague.students.isamshosting.cloud/api/profile/timetable/',
 				},
 				{
-					name: '',
-					link: '',
+					name: 'Academic calendar',
+					link: 'https://docs.google.com/spreadsheets/d/1iPYBFZGact-GfCj35ftztuTAlakm56qFzRSg7kVjaIA/edit?gid=0#gid=0',
 				},
 			],
 		},
