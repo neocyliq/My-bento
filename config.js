@@ -78,7 +78,7 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'Drive',
-			icon: 'cloud',
+			icon: 'triangle',
 			link: 'https://drive.google.com/drive/my-drive',
 		},
 		{
@@ -147,6 +147,20 @@ const CONFIG = {
 					link: 'https://sites.google.com/ishthehague.nl/ish-dp-computer-science/home?authuser=0&pli=1',
 				},
 				{
+					name: 'Physics OneNote',
+					link: 'https://rijnlands-my.sharepoint.com/:o:/r/personal/s_walsh_ishthehague_nl/Documents/Class%20Notebooks/Physics25%20HL_6%20Co2026%20Olsson%20Walsh?d=wec88db2ca73440c7ab6c5ee1a671593d&csf=1&web=1&e=hHfPZu',
+				},
+				{
+					name: 'Simple Notes',
+					link: 'https://app.simplenote.com/',
+				},
+			],
+		},
+		{
+			icon: 'user',
+			id: '2',
+			links: [
+				{
 					name: 'Timetable',
 					link: 'https://ishthehague.students.isamshosting.cloud/api/profile/timetable/',
 				},
@@ -154,27 +168,13 @@ const CONFIG = {
 					name: 'Academic calendar',
 					link: 'https://docs.google.com/spreadsheets/d/1iPYBFZGact-GfCj35ftztuTAlakm56qFzRSg7kVjaIA/edit?gid=0#gid=0',
 				},
-			],
-		},
-		{
-			icon: 'heart',
-			id: '2',
-			links: [
 				{
-					name: '',
-					link: '',
+					name: 'Configuration',
+					link: 'https://github.com/neocyliq/My-bento/edit/master/config.js#L81C15',
 				},
 				{
-					name: 'Everything will work out in the end',
-					link: '',
-				},
-				{
-					name: '',
-					link: '',
-				},
-				{
-					name: '',
-					link: '',
+					name: 'Icons',
+					link: 'https://lucide.dev/icons/',
 				},
 			],
 		},
