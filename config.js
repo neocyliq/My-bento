@@ -166,7 +166,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Academic calendar',
-					link: 'https://docs.google.com/spreadsheets/d/1DQe71XHjt_BSaG-9SuXPCKBjh7joivvmdqw4yya2Jkk/edit?gid=0#gid=0',
+					link: 'https://docs.google.com/spreadsheets/d/1CJsvl0QMhqzA5Qz89x7wKnhij_bEtrufrtWXSuK5cjo/edit?gid=0#gid=0',
 				},
 				{
 					name: 'Configuration',
