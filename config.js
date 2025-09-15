@@ -166,7 +166,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Academic calendar',
-					link: 'file:///D:/Users/Isabella/Downloads/Year%2013%20DP_CP%202025_2026%20Academic%20Calendar%20Planner%20-%20Sheet2.pdf',
+					link: 'https://docs.google.com/spreadsheets/d/1DQe71XHjt_BSaG-9SuXPCKBjh7joivvmdqw4yya2Jkk/edit?gid=0#gid=0',
 				},
 				{
 					name: 'Configuration',
